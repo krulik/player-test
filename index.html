@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Player Test</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="examples">
+		<h1>Player embed example</h1>
+		<p>Each player can have it's own <code>URL</code> and live in its own separate instance.</p>
+
+		<h2>Player 1</h2>
+		<div class="my-player" data-player-url="http://sdk.streamrail.com/pepsi/cdn/0.0.1/0b1a67169bf9693c3377a88f3607dadd7990fb53/manifest.json"></div>
+
+		<h2>Player 2</h2>
+		<div class="my-player" data-player-url="http://sdk.streamrail.com/pepsi/cdn/0.0.1/0b1a67169bf9693c3377a88f3607dadd7990fb53/manifest.json"></div>
+	</section>
+
+	<section class="instructions">
+		<h1>Show me the codez</h1>
+		<h2>Add this code to the bottom of your page</h2>
+		<code>
+			<pre>&lt;script src="player.js"&gt;&lt;/script&gt;</pre>
+		</code>
+		<h2>Add this code anywhere you'd want a player</h2>
+		<code>
+			<pre>&lt;div class="my-player" data-player-url="sprite.json"&gt;&lt;/div&gt;</pre>
+		</code>
+		<p><i>Note:</i> You can use any class you like, just make sure you put the <code>data-player-url</code> attribute</p>
+	</section>
+
+	<script src="player.js"></script>
+</body>
+</html>
